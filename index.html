@@ -31,6 +31,14 @@
       .bio-wrapper {
         font-size: 24px;
       }
+      .bio-wrapper:after {
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+      }
       .bio-box {
         border: 1px solid black;
         box-sizing: border-box;
@@ -103,7 +111,7 @@
     </div>
     </div>
   </div>
-  <p style="clear: left;">
+  <p>
     Learn Enough to Be Dangerous is a leader in the movement to teachthe word <em>technical sophistication</em>, which includes both "hard skills" like coding, command lines, and version control, and "soft skills" like guessing keyboard shortcuts, Googling error messages, and knowing when to just reboot the darn thing.
   </p>
   <p>
